@@ -1,38 +1,34 @@
 # 📄 PDF Merger
 
-A simple Python-based mini project that combines multiple PDF files into a single PDF document.
+A basic Python mini project that combines two PDF files into a single PDF document using the PyPDF library.
 
-## 🚀 Features
-- Merge multiple PDF files into one.
-- Simple and easy-to-use.
-- Saves the merged PDF as a new file.
+### Features
+- Merge multiple PDF files.
+- Combine PDFs into one document.
+- Save the output as `merged.pdf`.
 
-## 🛠️ Technologies Used
+### Technologies Used
 - Python
-- PyPDF2
+- PyPDF
 
-## 📦 Installation
+### Input Files
+- `discrete_maths.pdf`
+- `VB_NET.pdf`
+
+### How to Run
+Install the required library:
 
 ```bash
-pip install PyPDF2
+pip install pypdf
 ```
 
-## ▶️ How to Run
-
-1. Clone or download this repository.
-2. Install the required library.
-3. Run the Python file:
+Run the program:
 
 ```bash
 python main.py
 ```
 
-4. Select the PDF files you want to merge.
+**Output:** `merged.pdf`
 
-## 🎯 Objective
-
-Built as a beginner-level Python mini project to understand PDF handling and Python libraries.
-
-## 👨‍💻 Author
-
+### Author
 Harshit Mahajan
